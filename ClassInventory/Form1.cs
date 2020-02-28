@@ -86,6 +86,12 @@ namespace ClassInventory
             //---------------------------
 
             // TODO - show all objects in list
+
+            for(int i; i > inventoryOb.Count; i++)
+            {
+label1.Text = 
+            }
+            
         }
     }
 }
