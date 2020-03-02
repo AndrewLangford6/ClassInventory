@@ -74,7 +74,17 @@ namespace ClassInventory
             //---------------------------
 
             // TODO - if object entered exists in list show it
+            Player search = inventoryOb.Find(x => x.name == textBox1.Text);
+            if(search == null )
+                
+                {
+                label1.Text = "no johns";
 
+            }
+            else
+            {
+                label1.Text = "\n" + "\n" + search.name + "\n" + search.age + "\n" + search.team + "\n" + search.position;
+            }
 
             // TODO - else show not found message
         }
@@ -87,9 +97,11 @@ namespace ClassInventory
 
             // TODO - show all objects in list
 
-            for(int i; i > inventoryOb.Count; i++)
+            label1.Text = "";
+
+            foreach(Player p in inventoryOb)
             {
-label1.Text = 
+                label1.Text = "\n" + "\n" + p.name + "\n" + p.age + "\n" + p.team + "\n" + p.position;
             }
             
         }

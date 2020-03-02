@@ -219,7 +219,7 @@
             this.displayBox.ForeColor = System.Drawing.Color.White;
             this.displayBox.Location = new System.Drawing.Point(269, 69);
             this.displayBox.Name = "displayBox";
-            this.displayBox.Size = new System.Drawing.Size(289, 359);
+            this.displayBox.Size = new System.Drawing.Size(289, 388);
             this.displayBox.TabIndex = 3;
             this.displayBox.TabStop = false;
             this.displayBox.Text = "Output";
@@ -231,7 +231,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(10, 103);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 238);
+            this.label1.Size = new System.Drawing.Size(265, 273);
             this.label1.TabIndex = 10;
             // 
             // showButton
