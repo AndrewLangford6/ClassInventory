@@ -58,12 +58,13 @@ namespace ClassInventory
             if (index >= 0)
             {
                 inventoryOb.RemoveAt(index);
+                label1.Text = egg + " Player REMOVED!!!";
             }
 
 
 
             // TODO - display message to indicate deletion made
-            label1.Text = egg + " Player REMOVED!!!";
+           
 
         }
 
@@ -101,7 +102,7 @@ namespace ClassInventory
 
             foreach(Player p in inventoryOb)
             {
-                label1.Text = "\n" + "\n" + p.name + "\n" + p.age + "\n" + p.team + "\n" + p.position;
+                label1.Text += "\n" + "\n" + p.name + "\n" + p.age + "\n" + p.team + "\n" + p.position;
             }
             
         }
